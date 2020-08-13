@@ -1,0 +1,34 @@
+.btn-account {
+    position: relative;
+    display: flex;
+    margin: 0;
+    border: 0;
+    flex-wrap: none;
+    align-items: center;
+    background: none;
+    color: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    transition: background-color .15s;
+    outline: 0;
+}
+
+.btn-account:active, .btn-account:focus{
+    outline: 0;
+}
+
+.btn-account .account-summary{
+    max-width: 10rem;
+}
+
+.btn-account .account-name {
+    margin: 0;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 400;
+    line-height: 1rem;
+}
